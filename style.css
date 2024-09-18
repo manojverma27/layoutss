@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sunset-landscape-mountains-clouds-4k-jj.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.top{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.text{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 30%;
+   width: 13%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+.centre{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 40px;
+}
+
+.explore{
+    font-size: 40px;
+}
+
+.now{
+    border: 1px solid black;
+    width: 15%;
+    height: 15%;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+
+.place{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 35%;
+    height:15% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+  
+}
+
+
+.bottom{
+   
+    display: flex;
+    width: 80%;
+    padding: 20px 40px;
+}
+
+.hyy{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.hyy i{
+    font-size: 30px;
+}
+
+.hello i{
+    font-size: 30px;
+}
+
+.hello{
+    display: flex;
+    gap: 10px;
+}
+
+.place:hover{
+    background-color: black;
+    color: white;
+}
+
+.now:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(49, 126, 49);
+}
